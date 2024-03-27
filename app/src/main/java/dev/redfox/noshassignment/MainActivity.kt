@@ -89,11 +89,11 @@ class MainActivity : ComponentActivity() {
                     Row(
                         modifier = Modifier.align(Alignment.CenterHorizontally)
                     ) {
-                        Image(painter = painterResource(id = R.drawable.banner_image_1), contentDescription = "Banner 1", modifier = Modifier.height(70.dp).width(450.dp))
+                        Image(painter = painterResource(id = R.drawable.banner_image_1), contentDescription = "Banner 1", modifier = Modifier.height(60.dp).width(360.dp))
 
                         Spacer(modifier = Modifier.width(10.dp))
 
-                        Image(painter = painterResource(id = R.drawable.banner_image_2), contentDescription = "Banner 2", modifier = Modifier.height(70.dp).width(450.dp))
+                        Image(painter = painterResource(id = R.drawable.banner_image_2), contentDescription = "Banner 2", modifier = Modifier.height(60.dp).width(360.dp))
                     }
                     Spacer(modifier = Modifier.width(10.dp))
                 }
